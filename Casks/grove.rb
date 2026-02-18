@@ -2,8 +2,8 @@
 cask "grove" do
   name "grove"
   desc "Manage CoW-cloned workspaces with warm build caches"
-  homepage "https://github.com/AmpInc/grove"
-  version "0.0.1"
+  homepage "https://github.com/chrisbanes/grove"
+  version "0.0.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,11 +14,11 @@ cask "grove" do
   on_macos do
     on_intel do
       url "https://github.com/chrisbanes/grove/releases/download/v#{version}/grove_#{version}_darwin_amd64.tar.gz"
-      sha256 "1bd4b4ad1365b2d2f5f33693483c60d32491f862a85e08235ecd6f3b5899c926"
+      sha256 "6e35a108523821be7895c67eab2b7bf614cf79dfaa898b7385f1b16d8d5b76ae"
     end
     on_arm do
       url "https://github.com/chrisbanes/grove/releases/download/v#{version}/grove_#{version}_darwin_arm64.tar.gz"
-      sha256 "00ca9188ae37e8fd2720d2424ba7ff0efa02bf14fe0665aaf4adb8080d127b86"
+      sha256 "b910e5a5b935e72661a5e9ee2d9c9a45fc7c897cf7459e55c60f17c9f032d7c8"
     end
   end
 
