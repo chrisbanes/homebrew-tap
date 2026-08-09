@@ -1,6 +1,6 @@
 cask "portico" do
-  version "0.0.1"
-  sha256 "bdb0858934440f345902808bfacf9d79d83d073c9ab7ada04739a7d424cffe82"
+  version "0.0.2"
+  sha256 "254de987bc3f6d6a2869cc59d5982f6738f87a4124a64ec7ad0a674d6762f50b"
 
   url "https://github.com/chrisbanes/portico/releases/download/v#{version}/Portico-#{version}.dmg"
   name "Portico"
